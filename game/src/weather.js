@@ -53,7 +53,7 @@ export function isSunset(weather) {
   return (t > 0.66 && t < 0.78) || (t > 0.2 && t < 0.3);
 }
 
-// Clock text for the HUD: 06:00–05:59 across the day.
+// Clock text for the HUD: 00:00–23:59 across the day.
 export function clockText(weather) {
   const hours = Math.floor(weather.time * 24);
   const mins = Math.floor((weather.time * 24 - hours) * 60);

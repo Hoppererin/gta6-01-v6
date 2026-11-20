@@ -119,7 +119,7 @@ if (shot) {
     }
     input.endFrame();
 
-    // Autosave every few seconds of play.
+    // Autosave every 10 seconds of play.
     if (world.state === 'play' && Math.floor(world.playTime) % 10 === 0) storeSave(world);
 
     drawWorld(ctx, world);

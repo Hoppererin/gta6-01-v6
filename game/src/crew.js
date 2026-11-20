@@ -1,7 +1,7 @@
 // Isla Fortuna — the crew. Three hires, each a person with a job and
 // a bonus that changes how the island plays. Hiring is a one-off cash
 // cost from the pause menu (keys 1-3); the save round-trips the roster.
-//   Mara the Driver — your cars are 6% faster and grip better.
+//   Mara the Driver — your cars are 6% faster.
 //   Leo the Lookout — police spot you slower, and the scanner pings
 //     the nearest roadblock on the minimap.
 //   Ada the Hacker — the wanted level decays 25% faster, and heat
